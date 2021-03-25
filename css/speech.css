@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #a4b0be;
+    text-decoration: none;
+    color: #2f3542;
+}
+
+section{
+    background: #f1f2f6;
+}
+
+.text{
+    line-height: 30px;
+    width: 800px;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    background: #f1f2f6;
+}
+.text p,.text h2{
+    background-color: #f1f2f6;
+}
+.relative{
+    margin-top: 50px;
+    margin-right:100px;
+    height: 600px;
+    background-color: #f1f2f6;
+}
+.relative img{
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    grid-column-start: span 2;
+    background-color: #f1f2f6;
+}
+.relative h2{
+    grid-column-start: span 2;
+    line-height: 50px;
+}
+.grid-w{
+    text-align: center;
+    line-height: 150px;
+    background-color: #f1f2f6;
+}
+.grid{
+    overflow: hidden;
+    position: relative;
+}
+.grid img{
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+}
+.grid span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    color: #f1f2f6;
+}
+.grid img:hover~span{
+    background: black;
+    opacity: 0.5;
+    display: block;
+}
+.relative {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows:  50px 150px 150px 150px 150px 50px 50px 200px 200px 200px;
+}
+.footer{
+    color: #2f3542;
+    text-align: center;
+    background: #ced6e0;
+    line-height: 50px;
+    font-size: 10px;
+    height: 150px;
+    position: relative;
+    direction: ltr;
+}
+
+.footer summary{
+    line-height: 20px;
+    font-size: 10px;
+    color: #2f3542;
+    background: #ced6e0;
+    text-align: center;
+}
+
+.footer details{
+    line-height: 20px;
+    font-size: 10px;
+    color: #2f3542;
+    background: #ced6e0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 70% 400px;
+}
+
+picture{
+    margin-left: 100px;
+}
+
+.pic img{
+    width: 300px;
+}
+
+video{
+    margin-left: 80px;
+}
